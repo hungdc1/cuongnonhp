@@ -1,6 +1,5 @@
 import BaiViet from '~/pages/BaiViet';
 import GioiThieu from '~/pages/GioiThieu';
-import Home from '~/pages/Home';
 import KiemTraVanDon from '~/pages/KiemTraVanDon';
 import LienHe from '~/pages/LienHe';
 import Login from '~/pages/Login';
@@ -8,6 +7,7 @@ import ProductDetail from '~/pages/ProductDetail';
 import Signin from '~/pages/Signin';
 import ThuVienDownload from '~/pages/ThuVienDownload';
 import TuyenDung from '~/pages/TuyenDung';
+import Home from '~/pages/Home';
 
 import Cart from '~/pages/Cart';
 

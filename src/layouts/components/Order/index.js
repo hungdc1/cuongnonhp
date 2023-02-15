@@ -3,18 +3,10 @@ import classNames from 'classnames/bind';
 import Button from '~/components/Button';
 import styles from './Order.module.scss';
 import images from '~/assets/imgs';
-import { database } from '~/components/Api';
 
 const cx = classNames.bind(styles);
 
-// const loaddata = database.map((menu) => {
-//     return ({ menu.menuchild.map((item) => {
-
-//     }) });
-// });
-
 function Order() {
-    // console.log(loaddata);
     return (
         <div className={cx('container')}>
             <div className={cx('content')}>
