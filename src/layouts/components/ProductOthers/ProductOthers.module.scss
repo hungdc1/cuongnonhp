@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    color: var(--white-color);
+    background-color: #db0006;
+    font-size: 1.6rem;
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

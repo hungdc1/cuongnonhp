@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.4rem;
+    padding-right: 8px;
+    color: var(--black-color);
+    padding-bottom: 10px;
+}
+
+.des {
+    color: var(--black-color);
+
+    p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        margin-left: 8px;
+        margin-bottom: 10px;
+    }
+}

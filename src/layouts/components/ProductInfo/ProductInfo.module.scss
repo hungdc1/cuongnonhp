@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    background-color: var(--white-color);
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.link-tag {
+    width: 100%;
+    font-size: 1.5rem;
+    color: var(--black-color);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.slide-show {
+    width: 30%;
+}
+
+.order {
+    width: 50%;
+}
+
+.advider-info {
+    width: 20%;
+}

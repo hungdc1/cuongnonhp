@@ -1,0 +1,109 @@
+.container {
+    height: 130px;
+    width: 100%;
+    background-color: #f9c231;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-effect {
+    width: 33%;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: 0%;
+    }
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: rgba(67, 69, 113, 0);
+        transition: all 0.5s ease-in-out;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(67, 69, 113, 0);
+        transition: all 0.5s ease-in-out;
+    }
+
+    &:hover::before {
+        right: 50%;
+        left: 50%;
+        width: 0;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    &:hover::after {
+        height: 0;
+        top: 50%;
+        bottom: 50%;
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 60px;
+}
+
+.label-1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+.search {
+    display: flex;
+    width: 600px;
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    margin: 10px 0;
+
+    input {
+        height: 100%;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        padding: 0 8px;
+        background-color: transparent;
+        flex: 1;
+        border: none;
+        outline: none;
+    }
+
+    .search-btn {
+        float: right;
+        height: 100%;
+        background-color: #2ecc71;
+        font-size: 1.6rem;
+        color: var(--white-color);
+        padding: 0 8px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+.label-2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: red;
+    line-height: 2.8rem;
+}

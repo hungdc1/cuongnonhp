@@ -1,0 +1,121 @@
+.container {
+    background-color: var(--white-color);
+}
+
+.link-tag {
+    font-size: 1.5rem;
+    color: var(--black-color);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        object-position: center;
+        margin: 0 auto;
+    }
+}
+
+.description {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #774de7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+// singin-account
+
+.singin-account {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #13a8fe;
+}
+
+.company-info {
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--red-color);
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.form-acc {
+    display: flex;
+    margin: 5px 0;
+}
+
+.form-lable {
+    width: 30%;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    color: #404040;
+    margin: 5px 0;
+}
+
+.form-control {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    height: 30px;
+    width: 95%;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    color: #5c5c5c;
+    font-size: 1.4rem;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.form-required {
+    color: var(--red-color);
+    margin-left: 5px;
+}
+
+.form-control small {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    color: #e74c3c;
+    margin-top: 3px;
+    font-size: 1.2rem;
+}
+
+.note {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+//btn
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 20px 20px 0;
+}
+
+.btn {
+    width: 200px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border-radius: 4px;
+}
