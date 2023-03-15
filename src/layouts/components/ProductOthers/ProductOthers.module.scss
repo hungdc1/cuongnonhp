@@ -10,8 +10,14 @@
     text-transform: uppercase;
 }
 
+.body {
+    background-color: var(--white-color);
+    padding-bottom: 15px;
+}
+
 .list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid #f1f1f1;
 }
