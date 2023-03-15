@@ -1,4 +1,5 @@
 // import ProductDes from '~/layouts/components/ProductDes';
+import React from 'react';
 import ProductInfo from '~/layouts/components/ProductInfo';
 import ProductOthers from '~/layouts/components/ProductOthers';
 

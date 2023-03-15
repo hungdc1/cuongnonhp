@@ -13,42 +13,42 @@ function HeaderTop() {
                 <ul className={cx('menu-list')}>
                     <li className={cx('menu-item')}>
                         <img src={images.kiemtravd} className={cx('img')} alt="hungdc" />
-                        <Button to={'/kiemtravandon'} nobackground>
+                        <Button to={'/kiemtravandon'} className={cx('btn')} nobackground>
                             Kiểm tra vận đơn
                         </Button>
                     </li>
                     <li className={cx('menu-item')}>
                         <img src={images.tuyendung} className={cx('img')} alt="hungdc" />
-                        <Button to={'/tuyendung'} nobackground>
+                        <Button to={'/tuyendung'} className={cx('btn')} nobackground>
                             Tuyển dụng
                         </Button>
                     </li>
                     <li className={cx('menu-item')}>
                         <img src={images.gioithieu} className={cx('img')} alt="hungdc" />
-                        <Button to={'/gioithieu'} nobackground>
+                        <Button to={'/gioithieu'} className={cx('btn')} nobackground>
                             Giới thiệu
                         </Button>
                     </li>
                     <li className={cx('menu-item')}>
                         <img src={images.baiviet} className={cx('img')} alt="hungdc" />
-                        <Button to={'/baiviet'} nobackground>
+                        <Button to={'/baiviet'} className={cx('btn')} nobackground>
                             Bài viết
                         </Button>
                     </li>
                     <li className={cx('menu-item')}>
                         <img src={images.thuviendownload} className={cx('img')} alt="hungdc" />
-                        <Button to={'/thuviendownload'} nobackground>
+                        <Button to={'/thuviendownload'} className={cx('btn')} nobackground>
                             Thư viện Download
                         </Button>
                     </li>
                     <li className={cx('menu-item')}>
                         <img src={images.lienhe} className={cx('img')} alt="hungdc" />
-                        <Button to={'/lienhe'} nobackground>
+                        <Button to={'/lienhe'} className={cx('btn')} nobackground>
                             Liên hệ
                         </Button>
                     </li>{' '}
                     <li className={cx('menu-item')}>
-                        <Button to={'/signin'} nobackground>
+                        <Button to={'/signin'} className={cx('btn')} nobackground>
                             Đăng ký
                         </Button>
                     </li>{' '}

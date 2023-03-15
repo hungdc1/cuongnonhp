@@ -1,9 +1,9 @@
 import classNames from 'classnames/bind';
 
-import FooterList from '~/layouts/components/FooterList';
+import FooterMenu from '~/layouts/components/FooterMenu';
 import OrderLookup from '~/layouts/components/OrderLookup';
 import WebInfo from '~/layouts/components/WebInfo';
-import Mapp from '~/layouts/components/Mapp';
+// import Mapp from '~/layouts/components/Mapp';
 
 import styles from './Footer.module.scss';
 
@@ -14,9 +14,9 @@ function Footer() {
         <div className={cx('container')}>
             <div className={cx('content')}>
                 <OrderLookup />
-                <FooterList />
+                <FooterMenu />
                 <WebInfo />
-                <Mapp />
+                {/* <Mapp /> */}
             </div>
         </div>
     );

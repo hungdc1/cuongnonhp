@@ -11,3 +11,22 @@
         cursor: pointer;
     }
 }
+
+.big-img {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #d7d7d7;
+}
+
+.list-small-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+}
+
+.small-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+}

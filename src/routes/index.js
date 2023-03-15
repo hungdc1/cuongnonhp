@@ -19,11 +19,16 @@ import ProductWarrantyPolicy from '~/pages/ProductWarrantyPolicy';
 
 import UniTrend from '~/pages/UniTrend';
 import NhatMinhESC from '~/pages/NhatMinhESC';
+import ProductPage, { ProductPage2, ProductPage3 } from '~/pages/ProductPage';
 
 // những router ko cần đăng nhập vẫn vào được
 export const publicRoutes = [
     { path: '/', component: Home },
-    { path: '/productdetail', component: ProductDetail },
+    { path: '/productdetail/:code/:title.html', component: ProductDetail },
+    { path: '/productpage/:pid/:title.html', component: ProductPage },
+    { path: '/productpage2/:pid/:title.html', component: ProductPage2 },
+    { path: '/productpage3/:pid/:title.html', component: ProductPage3 },
+    { path: '/productpagefeatured/:pid/:title.html', component: ProductPage3 },
 
     { path: '/kiemtravandon', component: KiemTraVanDon },
     { path: '/tuyendung', component: TuyenDung },

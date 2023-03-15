@@ -1,5 +1,5 @@
 function KiemTraVanDon() {
-    return <h1>Kiem Tra Van Don page</h1>;
+    return <h4>KiemTraVanDon</h4>;
 }
 
 export default KiemTraVanDon;

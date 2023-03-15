@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import Product from '../Product';
+// import Product from '../Product';
 
 import styles from './ProductOthers.module.scss';
 
@@ -9,9 +9,7 @@ function ProductOthers() {
     return (
         <div className={cx('container')}>
             <h3 className={cx('title')}>Sản phẩm khác</h3>
-            <div className={cx('list')}>
-                <Product />
-            </div>
+            <div className={cx('list')}>{/* <Product /> */}</div>
         </div>
     );
 }

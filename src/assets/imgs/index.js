@@ -26,8 +26,34 @@ const images = {
 
     sanpham: require('~/assets/imgs/sanpham.jpg'),
 
-    vonkecoampekeco: require('~/assets/imgs/vonke-ampekeco-SPTB.jpg'),
-    vonkedientu: require('~/assets/imgs/vonkedientu-SPTB.jpg'),
+    tuchuyenaudio: require('~/assets/imgs/featureproduct/tuchuyenaudio.jpg'),
+    modulerelay: require('~/assets/imgs/featureproduct/modulerelay.jpg'),
+    modulenguon: require('~/assets/imgs/featureproduct/modulenguon.jpg'),
+    decauchi: require('~/assets/imgs/featureproduct/decauchi.jpg'),
+    caudau: require('~/assets/imgs/featureproduct/caudau.jpg'),
+    capsocket: require('~/assets/imgs/featureproduct/cap-socket.jpg'),
+    leddon: require('~/assets/imgs/featureproduct/leddon.jpg'),
+    lcd: require('~/assets/imgs/featureproduct/lcd.jpg'),
+    bienapthuong: require('~/assets/imgs/featureproduct/bienapthuong.jpg'),
+    vonkecoampekeco: require('~/assets/imgs/featureproduct/vonke-ampekeco-SPTB.jpg'),
+    vonkedientu: require('~/assets/imgs/featureproduct/vonkedientu-SPTB.jpg'),
+    donghothietbido: require('~/assets/imgs/featureproduct/donghothietbido.jpg'),
+    mayhan: require('~/assets/imgs/featureproduct/mayhan.jpg'),
+    thiechan: require('~/assets/imgs/featureproduct/thiechan.jpg'),
+    kimcacloai: require('~/assets/imgs/featureproduct/kimcacloai.jpg'),
+    kinhlup: require('~/assets/imgs/featureproduct/kinhlup.jpg'),
+    nhip: require('~/assets/imgs/featureproduct/nhip.jpg'),
+    vohopnhua: require('~/assets/imgs/featureproduct/vohopnhua.jpg'),
+    gen: require('~/assets/imgs/featureproduct/gen.jpg'),
+    ledthanh: require('~/assets/imgs/featureproduct/ledthanh.jpg'),
+    gioangvan: require('~/assets/imgs/featureproduct/gioangvan.jpg'),
+    quatdien: require('~/assets/imgs/featureproduct/quatdien.jpg'),
+    lovisong: require('~/assets/imgs/featureproduct/lovisong.jpg'),
+    beptu: require('~/assets/imgs/featureproduct/beptu-bephongngoai.jpg'),
+    noicom: require('~/assets/imgs/featureproduct/noicom.jpg'),
+    relay: require('~/assets/imgs/featureproduct/relay.jpg'),
+    quatdc: require('~/assets/imgs/featureproduct/quatdc.jpg'),
+    dieukhien: require('~/assets/imgs/featureproduct/dieukhien.jpg'),
 
     banner1: require('~/assets/imgs/banner1.jpg'),
     banner2: require('~/assets/imgs/banner2.jpg'),
@@ -40,6 +66,13 @@ const images = {
 
     usericon: require('~/assets/imgs/user-icon.png'),
     print: require('~/assets/imgs/print.png'),
+
+    mapimg: require('~/assets/imgs/bando2.png'),
+
+    dientrovach14w24k1000c1: require('~/assets/imgs/product/dientrovach14w24k1000c-1.jpg'),
+    dientrovach14w24k1000c2: require('~/assets/imgs/product/dientrovach14w24k1000c-2.jpg'),
+    VDK0851_1: require('~/assets/imgs/product/0851-1.png'),
+    VDK0851_2: require('~/assets/imgs/product/0851-2.png'),
 };
 
 export default images;

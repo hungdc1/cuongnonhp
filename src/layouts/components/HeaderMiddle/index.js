@@ -2,6 +2,7 @@ import { faCartShopping, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import Tippy from '@tippyjs/react/headless';
+import { Link } from 'react-router-dom';
 
 import images from '~/assets/imgs';
 import Search from '../Search';
@@ -15,9 +16,9 @@ function HeaderMiddle() {
     return (
         <header className={cx('header-middle')}>
             <div className={cx('container')}>
-                <div className={cx('logo')}>
+                <Link to={'/'} className={cx('logo')}>
                     <img src={images.logo} className={cx('logo-img')} alt="hungdc" />
-                </div>
+                </Link>
                 {/* <div className={cx('advise')}>
                     <img src={images.tuvanbanhang} className={cx('advise-img')} alt="hungdc" />
                     <span className={cx('advise-label')}>Tư vấn bán hàng</span>

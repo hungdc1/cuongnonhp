@@ -1,0 +1,22 @@
+.container {
+    height: 240px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    height: 100%;
+    width: 66%;
+}
+
+.map-img {
+    height: 100%;
+    width: 33%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}

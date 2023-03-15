@@ -18,6 +18,20 @@
     flex-direction: column;
     padding: 8px 10px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--black-color);
+
+    .icon {
+        height: 25px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .label {
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding-top: 2px;
+    }
 
     &:hover {
         background-color: var(--black-color);
@@ -25,20 +39,10 @@
     }
 }
 
-.icon {
-    height: 25px;
-    object-fit: contain;
-    object-position: center;
-}
-
-.label {
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding-top: 2px;
-}
-
 .menu {
     width: 25%;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -46,6 +50,7 @@
     font-weight: 500;
     line-height: 2.8rem;
     margin-left: 5px;
+    text-decoration: none;
     color: #e80909;
 }
 
@@ -53,5 +58,10 @@
     font-size: 1.3rem;
     color: var(--text-color);
     margin-left: 5px;
+    text-decoration: none;
     line-height: 2.2rem;
+
+    &:hover {
+        color: #e80909;
+    }
 }

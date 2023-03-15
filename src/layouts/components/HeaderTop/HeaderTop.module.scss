@@ -29,13 +29,8 @@
     padding: 3px;
 }
 
-// .label {
-//     font-size: 1.6rem;
-//     color: var(--white-color);
-//     margin-left: 4px;
-//     cursor: pointer;
-
-//     &:hover {
-//         color: #f3f200;
-//     }
-// }
+.btn {
+    &:hover {
+        color: #f3f200;
+    }
+}

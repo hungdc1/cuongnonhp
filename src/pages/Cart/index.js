@@ -48,7 +48,7 @@ function Cart() {
                                     9,000
                                 </td>
                                 <td align="center" className={cx('quantity')}>
-                                    <input className={cx('input')} type="text" />
+                                    <input defaultValue="1" className={cx('input')} type="text" />
                                 </td>
                                 <td align="center" className={cx('unit-price')}>
                                     Chiếc
@@ -77,7 +77,7 @@ function Cart() {
                                     9,000
                                 </td>
                                 <td align="center" className={cx('quantity')}>
-                                    <input className={cx('input')} type="text" />
+                                    <input defaultValue="1" className={cx('input')} type="text" />
                                 </td>
                                 <td align="center" className={cx('unit-price')}>
                                     Chiếc
@@ -248,8 +248,9 @@ function Cart() {
                             <div className={cx('box')}>
                                 <h4 className={cx('title')}>Lưu ý</h4>
                                 <p className={cx('des')}>
-                                    - Cước vận chuyển dự kiến được tính với đơn hàng 1kg. Nếu đơn hàng 1kg thì cước vận
-                                    chuyển thực tế sẽ nhỏ hơn, nếu đơn hàng 1kg thì cước vận chuyển thực tế sẽ lớn hơn
+                                    - Cước vận chuyển dự kiến được tính với đơn hàng 1kg. Nếu đơn hàng {'<'}1kg thì cước
+                                    vận chuyển thực tế sẽ nhỏ hơn, nếu đơn hàng {'>'}1kg thì cước vận chuyển thực tế sẽ
+                                    lớn hơn
                                 </p>
                             </div>
                         </div>
